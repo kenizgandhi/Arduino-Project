@@ -52,7 +52,7 @@ void loop(){
     if(readData()){
       delay(10);
     
-      SIM900.println("AT + CMGS = \"+4915218478335\"");
+      SIM900.println("AT + CMGS = \"+491xxxx478100\"");
       delay(100);
       
       String dataMessage = ("Temperature: " + String(tc) + "*C " + " Humidity: " + String(h) + "%");
